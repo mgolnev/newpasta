@@ -1,0 +1,589 @@
+HTML, BODY, UL, OL, LI, DL, DT, DD, P, H1, H2, H3, H4, H5, H6, BLOCKQUOTE, FORM, FIELDSET, LEGEND, TABLE, TD, TH
+{
+	margin: 0;
+	padding: 0;
+}
+UL
+{
+	margin-left: 15px;
+}
+IMG
+{
+	border-width: 0;
+}
+BODY
+{
+	position: inherit;
+	color: #222;
+	font-size: 0.9em;
+	min-width: 1000px;
+	background: url(mono-bg0.png) repeat top left;
+	min-height: 100%;
+	font-family: "PT Sans", sans-serif;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, .h7, .h1-b, .h2-b, .h3-b, .h4-b, .h5-b, .h6-b, .h7-b
+{
+	font-size: 1em;
+	font-weight: normal;
+	margin: 0;
+}
+.page-shadow
+{
+	position: relative;
+	z-index: 1;
+}
+.page-shadow-top, .page-shadow-bottom
+{
+	position: relative;
+	left: -34px;
+	width: 100%;
+	height: 74px;
+	padding-right: 10px;
+	background: url(page-sha.png) -58px -74px;
+}
+.page-shadow-bottom
+{
+	background-position: -58px 0;
+}
+.page-shadow-top-right, .page-shadow-bottom-right
+{
+	position: relative;
+	left: -24px;
+	width: 58px;
+	height: 74px;
+	margin-left: 100%;
+	margin-bottom: -74px;
+	background: url(page-sha.png) 0 -74px;
+}
+.page-shadow-bottom-right
+{
+	background-position: 0 0;
+}
+.page-shadow-left
+{
+	position: relative;
+	left: -34px;
+	width: 100%;
+	background: url(page-shb.png) repeat-y 0 0;
+	z-index: 1;
+}
+.page-shadow-right
+{
+	position: relative;
+	left: 68px;
+	width: 100%;
+	padding: 1px 0;
+	background: url(page-shb.png) repeat-y 100% 0;
+}
+H2
+{
+	line-height: 2;
+	text-align: justify;
+}
+H1
+{
+	text-align: justify;
+	line-height: 2;
+	font-size: 20pt;
+}
+.page-shadow-white
+{
+	position: relative;
+	left: -34px;
+	margin: -26px 0 -2px;
+	background: #FFFFFF;
+}
+.page-block
+{
+	padding: 25px 25px 0;
+}
+.telefon1
+{
+	position: absolute;
+	font-size: 15pt;
+	margin-left: 300px;
+	margin-top: -87px;
+	font-style: normal;
+	color: #656565;
+}
+.layer
+{
+	position: inherit;
+/*Абсолютное позиционирование*/
+	top: 46px;
+/*Положение от нижнего края
+Положение от правого края*/
+	margin-left: 360px;
+}
+.add1
+{
+	font-size: 200%;
+/*Размер шрифта в процентах*/
+	font-family: Tahoma;
+/*Шрифт с засечками*/
+	position: inherit;
+/*Относительное позиционирование*/
+	left: 89px;
+/*Сдвиг сверху*/
+	top: -5px;
+	margin-left: 416px;
+	font-weight: normal;
+	margin-right: 354px;
+	margin-top: -13px;
+	padding-left: 10px;
+	padding-right: 0px;
+}
+.logo
+{
+	margin-left: -53px;
+	margin-top: -46px;
+}
+#header
+{
+}
+.restaurant-header-name
+{
+	font-size: 1em;
+	position: absolute;
+	margin-left: 300px;
+	margin-top: -44px;
+	color: #6B6B6B;
+	font-style: normal;
+}
+.restaurant-header-title
+{
+	font-size: 1.5em;
+	color: #444;
+	font-weight: bold;
+	position: absolute;
+	margin-left: 268px;
+	margin-top: -133px;
+	font-style: normal;
+	text-decoration: none;
+	font-family: "Trebuchet MS";
+	display: block;
+}
+.plate-framework
+{
+	max-width: 1024px;
+	margin: 23px auto 0;
+	padding: 0 4%;
+	/*+placement:shift;*/
+	position: relative;
+	left: 0;
+	top: 0;
+}
+.plate-restaurant-right
+{
+	position: relative;
+	float: left;
+	width: 200px;
+}
+.plate-restaurant-left
+{
+	float: left;
+	margin-right: -221px;
+	margin-left: 25px;
+}
+.plate-restaurant-page
+{
+	clear: left;
+	/*+placement:shift -6px 83px;*/
+	position: relative;
+	left: -6px;
+	top: 83px;
+	padding-bottom: 85px;
+	margin-left: 43px;
+	text-align: justify;
+}
+.plate-dishes-wrapper
+{
+	margin-top: 24px;
+	margin-left: -40px;
+	width: 910px;
+}
+.plate-dishes-item
+{
+	word-spacing: inherit;
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 29px;
+	text-align: center;
+}
+.plate-dishes-item_ordered .plate-dishes-image, .plate-dishes-item_ordered .plate-dishes-specs
+{
+	cursor: move;
+}
+.plate-dishes-frame
+{
+	position: relative;
+	display: block;
+	width: 212px;
+	height: 139px;
+}
+.plate-dishes-specs
+{
+	width: 205px;
+	margin-top: 34px;
+}
+.plate-dishes-specs DD
+{
+	line-height: 0.9em;
+	font-size: 13pt;
+	margin-top: 8px;
+	height: 50px;
+	text-align: center;
+	padding-bottom: 9px;
+}
+.plate-dishes-specs-title
+{
+	font-size: 13pt;
+	line-height: 1em;
+	font-weight: bold;
+	font-family: Tahoma;
+	margin-bottom: 0px;
+	margin-top: 15px;
+	text-decoration: none;
+	text-align: center;
+}
+.plate-dishes-options TD
+{
+	vertical-align: inherit;
+	font-weight: normal;
+	/*[empty]color:;*/
+	margin-bottom: 0px;
+	text-align: justify;
+	padding-top: 9px;
+}
+.plate-dishes-buy
+{
+	width: 70px;
+	height: 16px;
+	margin-left: 0px;
+	font-weight: bold;
+	color: #020202;
+}
+.plate-dishes_multiline .plate-dishes-item
+{
+	margin-left: 47px;
+	margin-right: -42px;
+	padding-right: 53px;
+	width: 213px;
+	height: 280px;
+	padding-left: 27px;
+	padding-top: 20px;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+SMALL
+{
+	padding-top: 0px;
+	/*+placement:displace 0px -9px;*/
+	position: absolute;
+	margin-left: 0px;
+	margin-top: -9px;
+	margin-right: 3px;
+	margin-left: 85px;
+	color: #ADADAD;
+}
+.slider
+{
+	margin-left: 180px;
+	/*+placement:anchor-top-right -10px -9px;*/
+	position: absolute;
+	right: -10px;
+	top: -9px;
+}
+A
+{
+	color: #444444;
+	font-family: Tahoma;
+	text-decoration: none;
+	font-size: 11pt;
+}
+DIV
+{
+	float: none;
+}
+.plate-menuitems-list
+{
+	clear: left;
+	left: -19px;
+	width: 100%;
+	float: left;
+	top: -20px;
+/*Положение от нижнего края*/
+	padding-left: 0;
+}
+.plate-menuitems-item
+{
+	white-space: inherit;
+	float: left;
+	display: block;
+	height: 0px;
+	margin: 7px 16px 3px -6px;
+	/*+placement:shift 20px 8px;*/
+	position: relative;
+	left: 20px;
+	top: 8px;
+	font-style: normal;
+	font-weight: normal;
+}
+.plate-menuitems_restaurant
+{
+	background: url(menu-item.png);
+	/*+placement:shift -10px 83px;*/
+	position: relative;
+	left: -10px;
+	top: 83px;
+	height: 54px;
+	padding-left: 0;
+	padding-right: 20px;
+	margin-top: -56px;
+}
+.phone
+{
+	position: absolute;
+	margin: -87px 19px 23px 267px;
+	border: 0px solid #000000;
+}
+.watch
+{
+	position: absolute;
+	margin-left: 265px;
+	margin-top: -39px;
+}
+.gallery
+{
+	margin-left: -4px;
+	width: 0px;
+	/*[empty]height:;*/
+}
+.rollover
+{
+}
+#navigation
+{
+	float: left;
+	overflow: hidden;
+	position: relative;
+	margin-top: 159px;
+	margin-bottom: 29px;
+	margin-right: -34px;
+	width: 713px;
+	/*+placement:anchor-top-left 0px 0px;*/
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	margin-left: -54px;
+}
+#navigation UL
+{
+	clear: left;
+	float: left;
+	list-style: none;
+	margin: 0 0 0 -301px;
+	padding: 0;
+	position: relative;
+	left: 50%;
+	text-align: center;
+	/*[empty]width:;*/
+}
+#navigation UL LI
+{
+	display: block;
+	float: left;
+	list-style: none;
+	margin: 0 4px 0 -4px;
+	padding: 0 0 0 11px;
+	position: inherit;
+}
+#navigation UL LI A
+{
+	display: block;
+	margin: 0 0 0 -12px;
+	padding: 3px 10px 3px 7px;
+	color: #3D3D3D;
+	text-decoration: none;
+	line-height: 1.4em;
+	font-family: "Trebuchet MS";
+	font-size: 13pt;
+	font-weight: normal;
+}
+#navigation UL LI A:hover
+{
+	color: #026E06;
+}
+#navigation UL LI A.active, #navigation UL LI A.active:hover
+{
+	color: #000000;
+	font-weight: bold;
+}
+#header_menu UL
+{
+	list-style-type: none;
+	margin: -4px 66px 0 -27px;
+	padding: 0px 0px 0;
+	border: 0px solid #FF0000;
+}
+#header_menu LI
+{
+	float: left;
+	margin-left: 21px;
+	margin-top: 9px;
+	padding-left: 1px;
+}
+#header_menu A, #header_menu A:visited
+{
+	color: #7A7A7A;
+}
+#header_menu A:hover
+{
+	color: #222;
+}
+#pre_footer
+{
+	color: #998A8A;
+	font-size: 12px;
+	font-style: normal;
+	text-align: center;
+	padding: 0 70px;
+	font-weight: normal;
+}
+#pre_footer SPAN
+{
+	color: #FA6A00;
+}
+#footer
+{
+	background: url(/images/footer_bg.jpg) repeat-x 0px 0px;
+	min-height: 153px;
+	text-align: center;
+	margin-top: 50px;
+}
+#footer_content
+{
+	border: 0px solid #FF0000;
+	min-height: 133px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 970px;
+	text-align: left;
+	color: #998A8A;
+	padding-top: 20px;
+	padding-left: 30px;
+	text-align: center;
+	font-family: sans-serif;
+}
+#footer_content SPAN
+{
+	color: #FA6A00;
+}
+.scrollTop
+{
+	background: url(scrollTop.png) no-repeat 0 0;
+	display: block;
+	width: 63px;
+	height: 36px;
+	position: fixed;
+	bottom: 28px;
+	z-index: 2000;
+	left: 90%;
+}
+.scrollTop:hover
+{
+}
+.yashare-auto-init
+{
+	padding: 0px;
+	margin-left: -9px;
+	width: 169px;
+	height: 26px;
+	margin-top: 123px;
+	/*+placement:anchor-top-left 0px 0px;*/
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.letter
+{
+	font-family: Tahoma;
+	font-size: 16pt;
+	font-weight: normal;
+}
+#header_menu
+{
+	background: url(head_menu_bg.png) no-repeat 0px 0px;
+	color: #FFFFFF;
+	font-size: 12px;
+	height: 47px;
+	margin-left: 164px;
+	padding-left: 55px;
+	padding-top: 0px;
+	text-align: center;
+	border: 0px solid #FF0000;
+	/*+placement:float-left -17px -142px;*/
+	float: left;
+	position: relative;
+	left: -17px;
+	top: -142px;
+	margin-top: -55px;
+	width: 582px;
+}
+.opened
+{
+	color: #020202;
+	cursor: pointer;
+	font-family: sans-serif;
+	font-size: 11pt;
+	font-style: italic;
+	text-decoration: none;
+	font-weight: normal;
+	/*[empty]background-image:;*/
+	width: 67px;
+}
+.closed
+{
+	color: #5B5B5B;
+	cursor: pointer;
+	font-family: sans-serif;
+	font-size: 11pt;
+	font-style: italic;
+	text-decoration: underline;
+	font-weight: normal;
+	/*[empty]background-image:;*/
+}
+.spoiler-body
+{
+	display: none;
+	margin-left: -1px;
+	padding-left: 0px;
+	padding-right: 11px;
+	position: relative;
+	margin-right: 211px;
+	background-color: #F8FEEA;
+	border: 1px dashed #000000;
+	font-style: italic;
+}
+#header
+{
+	/*[empty]margin-top:;*/
+}
+#staticWrapper
+{
+	margin-top: 43px;
+	color: #4F4F4F;
+	text-align: justify;
+	margin-left: 45px;
+	width: 683px;
+	/*[empty]font-family:;*/
+	font-size: 13pt;
+	line-height: 1.3;
+}
+#staticWrapper P
+{
+	margin-top: 10px;
+	line-height: 25px;
+	color: #F64F4F;
+}

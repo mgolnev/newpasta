@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="admin" />
+
+	<title>Untitled 2</title>
+</head>
+
+<body>
+
+
+<?php
+$acces_token = "808167532edd3f3fee7edbde30a15e0cbfdff109872b389aad2a234839c17748921812788e953fd25894e";
+
+
+$method = "board.getComments";
+
+$params = array(
+                "group_id" =>49624358,
+                "topic_id" =>28047973,
+                "sort"=>'desc',
+                "extended"=> 1
+                
+                );
+
+
+
+$url = "https://api.vk.com/method/$method?";
+echo ($url);
+?>
+</body>
+</html>
